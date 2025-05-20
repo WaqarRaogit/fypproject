@@ -3,8 +3,8 @@ import { persist } from 'zustand/middleware';
 import useAuthStore from './authStore';
 import { urlService } from '../services/urlService';
 
-// const FRONTEND_BASE_URL = 'https://minifyuri.netlify.app';
-const FRONTEND_BASE_URL = 'http://localhost:5173';
+const FRONTEND_BASE_URL = 'https://minifyuri.netlify.app';
+// const FRONTEND_BASE_URL = 'http://localhost:5173';
 
 const useUrlStore = create(
   persist(
